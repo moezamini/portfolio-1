@@ -1,0 +1,19 @@
+title: MAE Student Portfolio
+description: "A portfolio template for MAE Undergaduates using the Minimal Mistakes theme."
+theme: minimal-mistakes-jekyll
+baseurl: "" # Set this to "" if using GitHub Pages.
+url: "https://<your-username>.github.io/portfolio-template"
+
+# Navigation Links
+nav:
+  - title: "Home"
+    url: "/"
+  - title: "Projects"
+    url: "/projects/"
+  - title: "CV"
+    url: "/cv/"
+  - title: "About"
+    url: "/about/"
+
+plugins:
+  - jekyll-feed
