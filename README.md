@@ -1,4 +1,3 @@
-In your GitHub Cla
 # Portfolio Assignment Instructions
 
 1. Accept the assignment through the provided GitHub Classroom link.
