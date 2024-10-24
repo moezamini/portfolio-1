@@ -2,5 +2,10 @@
 
 source "https://rubygems.org"
 
-gem "jekyll"
-gem "minimal-mistakes-jekyll"
+gem "kramdown-parser-gfm"
+
+gem "jekyll", "~> 3.7"
+
+gem "jekyll-include-cache"
+gem "jekyll-feed"
+gem "jekyll-theme-minimal"
