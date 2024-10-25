@@ -8,4 +8,5 @@ gem "jekyll", "~> 3.7"
 
 gem "jekyll-include-cache"
 gem "jekyll-feed"
-gem "jekyll-theme-minimal"
+
+gem "github-pages", group: :jekyll_plugins

@@ -5,4 +5,4 @@ permalink: /cv/
 ---
 ## Curriculum Vitae
 
-Download my [CV](assets/CV.pdf).
+You can download my [CV](/assets/CV.pdf) at the link.

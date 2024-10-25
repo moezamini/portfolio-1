@@ -17,7 +17,7 @@ baseurl                  : "" # Set this to "" if using GitHub Pages.
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 
 # Theme
-theme: jekyll-theme-minimal
+# theme: jekyll-theme-minimal
 
 # Outputting
 permalink: /:categories/:title/
