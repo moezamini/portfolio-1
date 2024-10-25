@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name> - Curriculum Vitae
+title: <Your Name> - Portfolio
 permalink: /projects/
 ---
 

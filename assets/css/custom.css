@@ -41,9 +41,27 @@ footer {
   transition: background 0.3s;
 }
 
+.highlight {
+  background-color: #2d2d2d; /* Dark background */
+  color: #e0e0e0; /* Light text */
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+
+.highlight .k { color: #c792ea; }  /* Keywords */
+.highlight .nb { color: #82aaff; } /* Builtins */
+.highlight .s { color: #c3e88d; }  /* Strings */
+.highlight .mi { color: #f78c6c; } /* Numbers */
+.highlight .c { color: #5c6370; }  /* Comments */
+.highlight .p { color: #89ddff; }  /* Punctuation */
+.highlight .o { color: #ff5370; }  /* Operators */
+
+
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(180px, .5fr));
   gap: 20px; /* Space between items */
   padding: 20px;
 }

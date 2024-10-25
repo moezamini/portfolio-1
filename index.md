@@ -1,6 +1,6 @@
 ---
 layout: default
-title: [Your Name]
+title: <Your Name>
 ---
 
 ![Profile Picture](assets/images/profile-pic.jpg){: style="float: left; margin: 0 25px 25px 0; width: 150px;"}
