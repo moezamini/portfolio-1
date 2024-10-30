@@ -11,7 +11,6 @@
 ## Edit the following files:
 
 - `index.md`: Add a welcome paragraph.
-- `_pages/about.md`: Write a brief introduction about yourself.
 - `_pages/projects.md`: List the projects you’ve worked on.
 - `_pages/cv.md`: Upload your CV in the assets/ folder.
 
