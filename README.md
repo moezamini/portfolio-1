@@ -1,18 +1,59 @@
 # Portfolio Assignment Instructions
 
-1. Accept the assignment through the provided GitHub Classroom link.
-2. After accepting, your personal portfolio repository will be created.
-3. Clone your repository to your local machine:
+This is a template for you to start building your professional portfolio. It is also part of your journey at MAE and will be reviewed, as needed, by your instructor and the Undergraduate Program Office. 
+
+## Getting Started
+
+1. Accept the assignment through the GitHub Classroom link you were provided.
+2. After accepting, your personal portfolio repository was be created.
+3. Clone your personal copy repository to your local machine:
 
 ```bash
    git clone https://github.com/<your-username>/<your-repo>.git
    cd <your-repo>
 ```
-## Edit the following files:
 
-- `index.md`: Add a welcome paragraph.
-- `_pages/projects.md`: List the projects you’ve worked on.
-- `_pages/cv.md`: Upload your CV in the assets/ folder.
+## Personalizing Your Portfolio
+
+### Homepage
+- `index.md`: Replace the placeholder text with a welcome or pitch paragraph about yourself
+-  `assets/images/profile-pic.jpg`: Replace the placeholder with a portrait of yourself
+
+### Projects
+- In the `_projects` folder: Use the provided example pages (e.g., `2022-trig-analysis.md`) to build one page per project.
+- Each project has a main (square) project image, set in the page's top matter by the `image` variable. 
+- All images are in `assets/images`. Delete the ones you don't need.
+- It is useful to name the page with a leading date. This will deteremine the order of projects on your main portfolio gallery. You can also develop another ordering by naming the projects with some numerical prefix.
+- The examples show how to include code and images in the portfolio page.
+
+### CV
+- `assets/CV.pdf`: Replace this placeholder with your own PDF CV.
+
+### Color Scheme
+
+The provided Jekyll themes (as do some others) come with multiple color schemes. To choose a scheme:
+
+1. Open the `_config.yml` file.
+2. Look for the `color_scheme` setting.
+3. Change the value to the desired name. Refer to the theme's documentation for available options.
+
+Example:
+
+```yaml
+color_scheme: dark
+```
+
+This will apply the dark skin to your portfolio site.
+
+
+## Using Other Jekyll Themes
+
+You can customize your portfolio by using other Jekyll themes. Here are some good places to find themes:
+
+- [Start Bootstrap](https://startbootstrap.com/themes/jekyll/)
+- [Jekyll Themes](https://jekyllthemes.io/)
+- [Jekyll Theme](http://jekylltheme.org/)
+- [Jekyll Themes on GitHub](https://github.com/topics/jekyll-theme)
 
 
 ## Run the site locally to test your changes:

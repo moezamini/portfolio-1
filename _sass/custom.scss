@@ -1,25 +1,20 @@
 
-@debug "custom" $skin;
 
 // Default to light theme
 $primary-color: #707da5;
 $background-color: #f9f9f9;
 $text-color: #333;
 
-// Set theme colors based on the skin variable
-@if $skin == 'dark' {
-  @debug "in dark";
+// Set theme colors based on the color_scheme variable
+@if $color_scheme == 'dark' {
   $primary-color: #333;
   $background-color: #000;
   $text-color: #fff;
-  @debug "in dark" $background-color;
-} @else if $skin == 'aqua' {
+} @else if $color_scheme == 'aqua' {
   $primary-color: #00aaff;
   $background-color: #e0f7fa;
   $text-color: #005662;
 }
-
-@debug "after if" $background-color;
 
 body {
   font-family: 'Helvetica Neue', Arial, sans-serif;

@@ -3,8 +3,6 @@
 # only Main files contain this front matter, not partials.
 --- 
 
-$skin: '{{ site.skin }}';
-
-@debug "main" $skin;
+$color_scheme: '{{ site.color_scheme }}';
 
 @import "custom";
