@@ -9,9 +9,13 @@ $text-color: #333;
   $background-color: #000;
   $text-color: #fff;
 } @else if $color_scheme == 'aqua' {
-  $primary-color: #00aaff;
-  $background-color: #e0f7fa;
-  $text-color: #005662;
+  $primary-color: #598392;
+  $background-color: #eff6e0;
+  $text-color: #01161e;
+} @else if $color_scheme == 'desert' {
+  $primary-color: #925959;
+  $background-color: #f6f1e0;
+  $text-color: #1e0101;
 }
 
 body {
@@ -105,11 +109,11 @@ footer {
 }
 
 .gallery-item {
-  border: 2px solid #ddd;
-  border-radius: 8px;
   overflow: hidden;
   text-align: center;
   transition: transform 0.3s ease;
+  max-width: 250px; 
+  max-height: 300px; 
 }
 
 .gallery-item img {
@@ -126,7 +130,7 @@ footer {
 .gallery-item p {
   margin: 13px 0;
   font-size: 1rem;
-  color: #333;
+  color: $text-color;
 }
 
 .gallery-item a {
