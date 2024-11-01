@@ -4,9 +4,8 @@ This is a template for you to start building your professional portfolio. It is 
 
 ## Getting Started
 
-1. Accept the assignment through the GitHub Classroom link you were provided.
-2. After accepting, your personal portfolio repository will be created.
-3. Clone your repository to your local machine:
+1. This is your personal copy of the portfolio template repository. It was created automatically when you accepted the Assignment through the GitHub Classroom link you were provided.
+2. Start by cloning your repository to your local machine:
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
@@ -24,23 +23,42 @@ cd <your-repo>
 - Each project has a main (square) project image, set in the page's top matter by the `image` variable.
 - All images are in `assets/images`. Delete the ones you don't need.
 - It is useful to name the page with a leading date. This will determine the order of projects on your main portfolio gallery.
+- You can also develop another ordering by naming the projects with some numerical prefix.
+- The example project pages show you how to include code and images in the portfolio page.
+- Refer to the Jekyll Markdown documentation for other formatting tips
 
 ### CV
 - `assets/CV.pdf`: Replace this placeholder with your own PDF CV.
 
+### Color Schemes
+
+The provided template comes with multiple color schemes. To choose a scheme:
+
+1. Open the `_config.yml` file.
+2. Look for the `color_scheme` setting.
+3. Change the value to the desired skin name. Refer to the inline comment in `_config.yml` for available skin options.
+
+
+Example:
+```yaml
+skin: aqua
+```
+
 ## Running the Site Locally
 
-To test your changes locally:
+Once you made your changes, or at any time you wish to, you can test your changes locally, by running this terminal command:
 
 ```bash
 bundle exec jekyll serve
 ```
 
+## Publishing your Portfolio to the Web
+
 Once everything looks good, commit and push your changes:
 
 ```bash
 git add .
-git commit -m "Completed portfolio"
+git commit -m "<Commit Edit>"
 git push origin main
 ```
 
@@ -59,26 +77,4 @@ You can customize your portfolio by using other Jekyll themes. Here are some goo
 - [Jekyll Theme](http://jekylltheme.org/)
 - [Jekyll Themes on GitHub](https://github.com/topics/jekyll-theme)
 
-To use a different theme:
-
-1. Find a theme you like from one of the sources above.
-2. Follow the theme's installation instructions, usually involving updating the `_config.yml` file and adding the theme's files to your repository.
-3. Customize the theme as needed to fit your portfolio content.
-
-## Choosing the Skin
-
-Some Jekyll themes come with multiple skins (color schemes). To choose a skin:
-
-1. Open the `_config.yml` file.
-2. Look for the `skin` or `color_scheme` setting.
-3. Change the value to the desired skin name. Refer to the theme's documentation for available skin options.
-
-Example:
-
-```yaml
-skin: dark
-```
-
-This will apply the dark skin to your portfolio site.
-
-Happy theming!
+Follow the theme's installation and customization instructions as needed to fit your portfolio content.
