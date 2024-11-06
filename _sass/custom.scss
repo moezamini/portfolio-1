@@ -18,8 +18,13 @@ $text-color: #333;
   $text-color: #1e0101;
 }
 
+
+.navbar, h1, h2, h3, h4, h5, h6 {
+  font-family: 'Merriweather', serif;
+}
+
 body {
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', 'Helvetica Neue' sans-serif;
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;

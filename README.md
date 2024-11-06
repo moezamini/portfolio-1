@@ -14,6 +14,10 @@ cd <your-repo>
 
 ## Personalizing Your Portfolio
 
+### Name
+
+In `_config.yml`, change references to "Your Name" to your actual name.
+
 ### Homepage
 - `index.md`: Replace the placeholder text with a welcome or pitch paragraph about yourself.
 - `assets/images/profile-pic.jpg`: Replace the placeholder with a portrait of yourself.
