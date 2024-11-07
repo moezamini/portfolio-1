@@ -1,6 +1,6 @@
 // Default to light theme
-$primary-color: #707da5;
-$background-color: #f9f9f9;
+$primary-color: #3a3f58;
+$background-color: #f7f8fa;
 $text-color: #333;
 
 // Set theme colors based on the color_scheme variable
@@ -21,10 +21,15 @@ $text-color: #333;
 
 .navbar, h1, h2, h3, h4, h5, h6 {
   font-family: 'Merriweather', serif;
+  font-weight: 700;
+}
+
+h1 {
+  margin-bottom: 25px;
 }
 
 body {
-  font-family: 'Montserrat', 'Helvetica Neue' sans-serif;
+  font-family: "Open Sans", 'Montserrat', 'Helvetica Neue' sans-serif;
   line-height: 1.6;
   background-color: $background-color;
   color: $text-color;
@@ -45,6 +50,11 @@ header {
 footer {
   text-align: center;
   margin-top: 40px;
+  font-size: 0.9em;
+}
+
+.container {
+  max-width: 600px;
 }
 
 .project-item img {
@@ -100,18 +110,27 @@ footer {
 
 .inline-image {
   max-width: 350px;
-  margin: 20px 25px 25px 25px;
+  margin: 0px 25px 15px 25px;
+  vertical-align: top;
 
   &-l {
     @extend .inline-image;
     float: left;
+    margin-left: 0;
   }
 
   &-r {
     @extend .inline-image;
     float: right;
+    margin-right: 0;
   }
 }
+
+.profile-image, .project-image {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
 
 .gallery-container {
   display: flex;
@@ -121,7 +140,7 @@ footer {
 
 .project-gallery {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   gap: 20px;
   padding: 20px;
   margin: 0 auto;
@@ -149,7 +168,7 @@ footer {
 
 .gallery-item p {
   margin: 13px 0;
-  font-size: 1rem;
+  font-size: .9rem;
   color: $text-color;
 }
 
@@ -165,4 +184,20 @@ footer {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+.back-arrow {
+  display: inline-block;
+  font-size: 1.1em;
+  color: #686d85; 
+  text-decoration: none;
+  margin-bottom: 1em;
+  font-weight: bold;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.back-arrow:hover {
+  color: #3a3f58; 
+  transform: translateX(-4px);
+}
+
 

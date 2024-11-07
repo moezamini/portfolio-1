@@ -1,6 +1,6 @@
 ---
 layout: project
-title: Analysis of Standard Functions
+title: Analysis of Functions
 description: Class project with Graphs
 technologies: [MATLAB, python]
 image: /assets/images/function-graph.png
