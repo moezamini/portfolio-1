@@ -98,6 +98,21 @@ footer {
   vertical-align: top;
 }
 
+.inline-image {
+  max-width: 350px;
+  margin: 20px 25px 25px 25px;
+
+  &-l {
+    @extend .inline-image;
+    float: left;
+  }
+
+  &-r {
+    @extend .inline-image;
+    float: right;
+  }
+}
+
 .gallery-container {
   display: flex;
   justify-content: center;
