@@ -50,11 +50,20 @@ skin: aqua
 
 ## Running the Site Locally
 
-Once you made your changes, or at any time you wish to, you can test your changes locally, by running this terminal command:
+Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`:
 
+You need to run this command only the first time, to install the relevant packages: 
+```bash
+bundle install
+```
+Then, to run the server you run the `jekyll serve` command:
 ```bash
 bundle exec jekyll serve
 ```
+
+Note that many updates to your code are automatically reloaded into the web server. However, some changes, notably to `_config.yml` require a restart of the jekyll server.
+
+You can access the site at the URL shown by the `serve` command.
 
 ## Publishing your Portfolio to the Web
 
