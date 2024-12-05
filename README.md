@@ -2,15 +2,22 @@
 
 This is a template for you to start building your professional portfolio. It is also part of your journey at MAE and will be reviewed, as needed, by your instructor and the Undergraduate Program Office.
 
-## Getting Started
+Note that this is your personal copy of the portfolio template repository. It was created automatically when you accepted the Assignment through the GitHub Classroom link you were provided.
 
-1. This is your personal copy of the portfolio template repository. It was created automatically when you accepted the Assignment through the GitHub Classroom link you were provided.
-2. Start by cloning your repository to your local machine:
+## Getting Started (Cloning Method)
+
+Start by cloning your repository to your local machine:
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
+
+## Getting Started (Codespace)
+
+Instead of local development, you can use the online [Codespaces](https://github.com/features/codespaces) environments for development. This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
+
+
 
 ## Personalizing Your Portfolio
 
