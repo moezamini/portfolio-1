@@ -13,11 +13,11 @@ git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
 
-## Getting Started (Codespace)
+## Getting Started (Codespaces)
 
 Instead of local development, you can use the online [Codespaces](https://github.com/features/codespaces) environments for development. This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
 
-
+<img src="assets/images/codespace-button.png" width="400" />
 
 ## Personalizing Your Portfolio
 
