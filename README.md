@@ -57,12 +57,28 @@ skin: aqua
 
 ## Running the Site Locally
 
-Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`:
+Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`.
 
-You need to run this command only the first time, to install the relevant packages: 
+### Prerequisites
+
+To run `bundle`, you need `ruby` installed on your machine. 
+
+For MacOS, the recommended path is to install [`homebrew`](https://brew.sh/) and then `ruby`:
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+brew install ruby
+```
+
+On Windows, you can use [RubyInstaller](https://rubyinstaller.org/).
+
+### Install Packages (once)
+
+You only need to run this command the first time you try to run jekyll, to install the relevant packages: 
 ```bash
 bundle install
 ```
+
+### Running the Local Portfolio Server
 Then, to run the server you run the `jekyll serve` command:
 ```bash
 bundle exec jekyll serve
