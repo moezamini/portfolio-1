@@ -4,22 +4,44 @@ This is a template for you to start building your professional portfolio. It is 
 
 Note that this is your personal copy of the portfolio template repository. It was created automatically when you accepted the Assignment through the GitHub Classroom link you were provided.
 
-## Getting Started (Cloning Method)
+## Portfolio Editing Workflow
+The workflow of editing and publishing your portfolio goes as follows:
 
-Start by cloning your repository to your local machine:
+1. **Create a local copy** of your portfolio, either on your computer or in an online "Codespace".
+2. **Edit any relevant template files**, add images, new project pages, text, etc. Remember to [commit](https://docs.github.com/en/get-started/using-git/about-git#basic-git-commands) often to save your progress.
+3. Test out your portfolio by **running a local test server** and see if it looks as planned.
+4. If you're happy, make sure everything is committed and **push your changes to Github**. This will publish your portfolio on the Internet.
+5. Rinse and repeat from Step 2 above. 
+
+## Creating a Local Copy
+There are three ways to set up a working copy of the portfolio code for you to edit. From easy to hard: you can either **create an online workspace** on called "Codespace", or clone the code directly **inside Visual Studio Code** for editing, committing, and pushing, or **use the git command line interface (CLI)** to maintain your local copy.
+
+### Using Codespaces
+
+You can use the online [Codespaces](https://github.com/features/codespaces) environments for development. Please read more about this feature in the following [link](https://github.com/features/codespaces). This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
+
+<img src="assets/images/codespace-button.png" width="400" />
+
+### Using Visual Studio Code
+
+Alternatively, you can use [VS Code](https://code.visualstudio.com/) to clone your code, edit, test, and publish it from your laptop. This means you can work offline and generally have full control of your code. 
+
+Download and install VS Code. When you open it, choose "Clone Git Repository" to start a new project from your repository. Then enter the repo URL (also under the "Code" button in GitHub). 
+
+You can then use VS Code for editing and [Git actions](https://code.visualstudio.com/docs/sourcecontrol/overview). Please refer to the [VS Code documentation](https://code.visualstudio.com/docs/) for more information. 
+
+## Git CLI
+
+Finally, if you are an advanced user, you can simply clone your repository to your local machine using the Git command line interface in the terminal, and then use any text editing software you prefer to edit the files. 
+
+Use the terminal to commit and push your files and run the local test server.
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
 
-## Getting Started (Codespaces)
-
-Instead of local development, you can use the online [Codespaces](https://github.com/features/codespaces) environments for development. This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
-
-<img src="assets/images/codespace-button.png" width="400" />
-
-## Personalizing Your Portfolio
+## Editing the Files to Personalize Your Portfolio
 
 ### Name
 
@@ -61,7 +83,7 @@ skin: aqua
 
 ## Running the Site Locally
 
-Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`.
+Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`. All of this happens in the terminal, either on Codespaces, or in VS Code, or directly in your terminal app, depending on how you set up your local code.
 
 ### Prerequisites
 
@@ -94,7 +116,7 @@ You can access the site at the URL shown by the `serve` command.
 
 ## Publishing your Portfolio to the Web
 
-Once everything looks good, commit and push your changes:
+Once everything looks good, commit and push your changes. In the command line, it looks like this.
 
 ```bash
 git add .
@@ -102,13 +124,17 @@ git commit -m "<Commit Edit>"
 git push origin main
 ```
 
+In VS Code or Codespaces, you can use the Git interface inside the development environment.
+
 Your portfolio will be live at:
 
-```php
-https://<your-username>.github.io/<your-repo>/
+```python
+https://cornell-mae-ug.github.io/<your-repo>/
 ```
 
-## Using Other Jekyll Themes
+where `your-repo` is probably `portfolio-<your-github-username>`
+
+## More Customization: Using Other Jekyll Themes
 
 You can customize your portfolio by using other Jekyll themes. Here are some good places to find themes:
 
