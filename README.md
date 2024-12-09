@@ -1,4 +1,4 @@
-# Portfolio Assignment Instructions
+# Portfolio Instructions
 
 This is a template for you to start building your professional portfolio. It is also part of your journey at MAE and will be reviewed, as needed, by your instructor and the Undergraduate Program Office.
 
@@ -27,6 +27,9 @@ You can use the online [Codespaces](https://github.com/features/codespaces) envi
 Alternatively, you can use [VS Code](https://code.visualstudio.com/) to clone your code, edit, test, and publish it from your laptop. This means you can work offline and generally have full control of your code. 
 
 Download and install VS Code. When you open it, choose "Clone Git Repository" to start a new project from your repository. Then enter the repo URL (also under the "Code" button in GitHub). 
+
+<img src="assets/images/vscode-clone.jpg" width="500" />
+
 
 You can then use VS Code for editing and [Git actions](https://code.visualstudio.com/docs/sourcecontrol/overview). Please refer to the [VS Code documentation](https://code.visualstudio.com/docs/) for more information. 
 
@@ -83,16 +86,25 @@ skin: aqua
 
 ## Running the Site Locally
 
-Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`. All of this happens in the terminal, either on Codespaces, or in VS Code, or directly in your terminal app, depending on how you set up your local code.
+Once you made your changes, or at any time you wish to, you can test your changes locally, by running `bundle`. All of this happens **in the terminal**, either on Codespaces, or in VS Code, or directly in your terminal app, depending on how you set up your local code.
 
 ### Prerequisites
 
-To run `bundle`, you need `ruby` installed on your machine. 
+To run `bundle`, you need Ruby installed on your machine. 
 
-For MacOS, the recommended path is to install [`homebrew`](https://brew.sh/) and then `ruby`:
+For MacOS, the recommended path is to install [`homebrew`](https://brew.sh/): 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
+
+and then Ruby:
+```
 brew install ruby
+```
+
+Verify that you have the latest Ruby version: 
+```
+ruby -v
 ```
 
 On Windows, you can use [RubyInstaller](https://rubyinstaller.org/).
@@ -112,11 +124,15 @@ bundle exec jekyll serve
 
 Note that many updates to your code are automatically reloaded into the web server. However, some changes, notably to `_config.yml` require a restart of the jekyll server.
 
-You can access the site at the URL shown by the `serve` command.
+You can access the site at the URL shown by the `serve` command. It looks something like this:
+```python
+    Server address: http://127.0.0.1:4000/
+  Server running... press ctrl-c to stop.
+```
 
 ## Publishing your Portfolio to the Web
 
-Once everything looks good, commit and push your changes. In the command line, it looks like this.
+Once everything looks good, commit and push your changes. In the command line, run the following commands. Ideally, you would have added and committed many times locally before pushing to Github.
 
 ```bash
 git add .
@@ -124,19 +140,23 @@ git commit -m "<Commit Edit>"
 git push origin main
 ```
 
-In VS Code or Codespaces, you can use the Git interface inside the development environment.
+In VS Code or Codespaces, you can use the Git interface inside the development environment to stage (add), commit, and push your changes.
 
-Your portfolio will be live at:
+### Checklist
 
-```python
-https://cornell-mae-ug.github.io/<your-repo>/
-```
+To make sure your portfolio is published, you need to confirm in the repository's settings that:
 
-where `your-repo` is probably `portfolio-<your-github-username>`
+1. Your repository is public (under Settings > General, scroll to the bottom and find "Visibility")
+2. You are serving GitHub Pages from the `main` branch (under Settings > Pages)
+
+### Done!
+Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`, where `your-repo` is this repository's name, probably `portfolio-<your-github-username>`.
+
+:tada:
 
 ## More Customization: Using Other Jekyll Themes
 
-You can customize your portfolio by using other Jekyll themes. Here are some good places to find themes:
+You can customize your portfolio even more by using other Jekyll themes. Here are some good places to find themes:
 
 - [Start Bootstrap](https://startbootstrap.com/themes/jekyll/)
 - [Jekyll Themes](https://jekyllthemes.io/)
