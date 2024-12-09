@@ -149,7 +149,7 @@ To make sure your portfolio is published, you need to confirm in the repository'
 1. Your repository is public (under Settings > General, scroll to the bottom and find "Visibility")
 2. You are serving GitHub Pages from the `main` branch (under Settings > Pages)
 
-### Done!
+### Your Published Portfolio Site
 Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`, where `your-repo` is this repository's name, probably `portfolio-<your-github-username>`.
 
 :tada:
