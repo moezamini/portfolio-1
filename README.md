@@ -23,7 +23,11 @@ Instead of local development, you can use the online [Codespaces](https://github
 
 ### Name
 
-In `_config.yml`, change references to "Your Name" to your actual name.
+Change references to "Your Name" to your actual name in the following files:
+- `_config.yml`
+- `index.md`
+- `projects.md`
+- `cv.md`
 
 ### Homepage
 - `index.md`: Replace the placeholder text with a welcome or pitch paragraph about yourself.
