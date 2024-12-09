@@ -13,6 +13,8 @@ The workflow of editing and publishing your portfolio goes as follows:
 4. If you're happy, make sure everything is committed and **push your changes to Github**. This will publish your portfolio on the Internet.
 5. Rinse and repeat from Step 2 above. 
 
+---
+
 ## Creating a Local Copy
 There are three ways to set up a working copy of the portfolio code for you to edit. From easy to hard: you can either **create an online workspace** on called "Codespace", or clone the code directly **inside Visual Studio Code** for editing, committing, and pushing, or **use the git command line interface (CLI)** to maintain your local copy.
 
@@ -33,7 +35,7 @@ Download and install VS Code. When you open it, choose "Clone Git Repository" to
 
 You can then use VS Code for editing and [Git actions](https://code.visualstudio.com/docs/sourcecontrol/overview). Please refer to the [VS Code documentation](https://code.visualstudio.com/docs/) for more information. 
 
-## Git CLI
+### Using the Git CLI
 
 Finally, if you are an advanced user, you can simply clone your repository to your local machine using the Git command line interface in the terminal, and then use any text editing software you prefer to edit the files. 
 
@@ -43,6 +45,8 @@ Use the terminal to commit and push your files and run the local test server.
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
+
+---
 
 ## Editing the Files to Personalize Your Portfolio
 
@@ -71,6 +75,7 @@ Change references to "Your Name" to your actual name in the following files:
 
 ### CV
 - `assets/CV.pdf`: Replace this placeholder with your own PDF CV.
+- You can either edit or delete the placeholder CV markdown text.
 
 ### Color Schemes
 
@@ -88,6 +93,8 @@ skin: aqua
 
 ### More Customization
 You can also change the style of any component of the portfolio editing the `custom.scss` file, which is written in the [Sass](https://sass-lang.com/) language.
+
+---
 
 ## Running the Site Locally
 
@@ -135,6 +142,8 @@ You can access the site at the URL shown by the `serve` command. It looks someth
   Server running... press ctrl-c to stop.
 ```
 
+---
+
 ## Publishing your Portfolio to the Web
 
 Once everything looks good, commit and push your changes. In the command line, run the following commands. Ideally, you would have added and committed many times locally before pushing to Github.
@@ -158,6 +167,8 @@ To make sure your portfolio is published, you need to confirm in the repository'
 Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`, where `your-repo` is this repository's name, probably `portfolio-<your-github-username>`.
 
 :tada:
+
+---
 
 ## More Customization: Using Other Jekyll Themes
 
