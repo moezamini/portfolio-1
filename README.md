@@ -46,6 +46,8 @@ cd <your-repo>
 
 ## Editing the Files to Personalize Your Portfolio
 
+GitHub Pages, the framework powering the portfolio system, uses [Jekyll](https://jekyllrb.com/) as the core technology. This means you will use [GitHub Pages Markdown](https://www.markdownguide.org/tools/github-pages/) to edit your files. 
+
 ### Name
 
 Change references to "Your Name" to your actual name in the following files:
@@ -83,6 +85,9 @@ Example:
 ```yaml
 skin: aqua
 ```
+
+### More Customization
+You can also change the style of any component of the portfolio editing the `custom.scss` file, which is written in the [Sass](https://sass-lang.com/) language.
 
 ## Running the Site Locally
 
@@ -156,7 +161,9 @@ Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`
 
 ## More Customization: Using Other Jekyll Themes
 
-You can customize your portfolio even more by using other Jekyll themes. Here are some good places to find themes:
+As mentioned, your portfolio uses [Jekyll](https://jekyllrb.com/) underneath the hood. For more advanced styling of your portfolio, check out [this documentation](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll).
+
+This also means that you can customize your portfolio to a greater extent by using other Jekyll themes. Here are some good places to find themes:
 
 - [Start Bootstrap](https://startbootstrap.com/themes/jekyll/)
 - [Jekyll Themes](https://jekyllthemes.io/)
