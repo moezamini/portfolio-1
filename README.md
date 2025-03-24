@@ -168,6 +168,10 @@ Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`
 
 :tada:
 
+### More Control over Publishing
+
+If you add plugins and add-ons, you might need to publish using your own Gemfile, and other custom actions. See the following link to learn everything about [publishing a Jekyll site with Github Pages](https://jekyllrb.com/docs/continuous-integration/github-actions/).
+
 ---
 
 ## More Customization: Using Other Jekyll Themes
