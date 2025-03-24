@@ -182,3 +182,27 @@ This also means that you can customize your portfolio to a greater extent by usi
 - [Jekyll Themes on GitHub](https://github.com/topics/jekyll-theme)
 
 Follow the theme's installation and customization instructions as needed to fit your portfolio content.
+
+## Tips and Tricks
+
+### Commenting Out Content
+
+You can comment out a bit of text or an image by using the `{% comment %}` command:
+
+```ruby
+{% comment %}
+    Stuff you want to comment out.
+{% endcomment %}
+```
+
+### Changing the text width
+
+Change any styling by editing the `custom.scss` file, a Sass file, which is a superset of CSS.
+
+For example, change the text width by changing the `max-width` of `.container`:
+
+```css
+.container {
+  max-width: 1000px;
+}
+```
