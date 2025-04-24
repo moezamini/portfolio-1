@@ -20,7 +20,7 @@ There are three ways to set up a working copy of the portfolio code for you to e
 
 ### Using Codespaces
 
-You can use the online [Codespaces](https://github.com/features/codespaces) environments for development. Please read more about this feature in the following [link](https://github.com/features/codespaces). This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
+You can use the online [Codespaces](https://github.com/features/codespaces) environments for development. Please read more about this feature through the following [link](https://github.com/features/codespaces). This option is available to you through the "Code" button as shown in the image below. This starts an online space for you to edit, test, and commit your work.
 
 <img src="assets/images/codespace-button.png" width="400" />
 
