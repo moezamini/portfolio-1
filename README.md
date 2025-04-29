@@ -146,6 +146,8 @@ You can access the site at the URL shown by the `serve` command. It looks someth
 
 ## Publishing your Portfolio to the Web
 
+### Push your Changes to GitHub
+
 Once everything looks good, commit and push your changes. In the command line, run the following commands. Ideally, you would have added and committed many times locally before pushing to Github.
 
 ```bash
@@ -156,15 +158,18 @@ git push origin main
 
 In VS Code or Codespaces, you can use the Git interface inside the development environment to stage (add), commit, and push your changes.
 
-### Checklist
+### Set Up GitHub Pages
 
-To make sure your portfolio is published, you need to confirm in the repository's settings that:
+To then make sure your portfolio is published:
 
-1. Your repository is public (under Settings > General, scroll to the bottom and find "Visibility")
-2. You are serving GitHub Pages from the `main` branch (under Settings > Pages)
+<img src="assets/images/settings.png" width="500" />
+
+1. Go to your repository's Settings
+2. Choose the "Pages" tab and choose Branch `main`
+3. Don't forget to save this setting
 
 ### Your Published Portfolio Site
-Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`, where `your-repo` is this repository's name, probably `portfolio-<your-github-username>`.
+Your portfolio should be live at `https://cornell-mae-ug.github.io/<your-repo>/`, where `your-repo` is this repository's name, probably `portfolio-<your-github-username>`. This URL is also shown in your Pages setting tab.
 
 :tada:
 
