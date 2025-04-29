@@ -1,6 +1,6 @@
 ---
 layout: default
-title: <Your Name>
+title: Moez AMini
 ---
 
 ## About Me
