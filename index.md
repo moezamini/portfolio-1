@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Moez AMini
+title: Moez Amini
 ---
 
 ## About Me
